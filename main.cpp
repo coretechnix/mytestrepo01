@@ -66,7 +66,6 @@ int main(int argc, char **argv)
         }
     }
 
-//    const std::string path = "ChannelEventDistributorServer.conf";
     const std::string path = ( !cliparm_config_path.empty() ? cliparm_config_path : "channel-event-distributor-server.conf");
     const std::string etcpath = "/etc/subsys/channel-event-distributor-server.conf";
     
